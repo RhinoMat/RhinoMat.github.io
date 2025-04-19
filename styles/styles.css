@@ -4,5 +4,6 @@ body {
 #navigation {
     color: white;
     background-color: gray;
+    margin: 0;
     padding: 0 0 0 0;
 }
