@@ -1,9 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: black;
 }
-#navigation {
-    color: white;
+nav {
+    width: 100%;
     background-color: gray;
-    margin: 0;
-    padding: 0 0 0 0;
+    overflow: auto;
+}
+nav a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    text-align: center;
+}
+main {
+    color: red;
 }
