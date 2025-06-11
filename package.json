@@ -1,8 +1,12 @@
 {
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "three": "^0.175.0"
   },
   "devDependencies": {
     "vite": "^6.3.2"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
   }
 }
